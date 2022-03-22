@@ -47,9 +47,6 @@ object Build : BuildType({
                 }
             }
         }
-        script {
-            scriptContent = "./run.sh"
-        }
     }
 
     triggers {
